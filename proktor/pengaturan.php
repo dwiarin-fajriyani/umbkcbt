@@ -82,6 +82,7 @@ $setting['header'] = str_replace('<br />', '', $setting['header']);
 													<option value='MI'>MI</option>
 													<option value='MTS'>MTS</option>
 													<option value='MA'>MA/MAK</option>
+													<option value='SMK'>SMK</option>
 												</select>
 											</div>
 										</div>

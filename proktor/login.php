@@ -75,7 +75,7 @@ if (isset($_POST['submit'])) {
 	<title>Login Admin </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="../favicon.ico" />
+	<link rel="icon" type="image/png" href="../fav.ico" />
 	<link rel="stylesheet" type="text/css" href="../dist/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../plugins/font-awesome/css/font-awesome.css">
 
@@ -139,10 +139,11 @@ if (isset($_POST['submit'])) {
 			</div>
 			<div class='logo hidden-xs'>
 			<span class="animated flipInX login100-form-title">
-						<?php echo	$namaaplikasi; ?>
+						<!-- <?php echo	$namaaplikasi; ?> -->
+						<?php echo	"PSAJ-BK"?>
 					</span>
 					<small class="animated flipInX p-b-50">
-						<?php echo	"$setting[sekolah] - $setting[kota] - $setting[web]"; ?>
+						<?php echo	"$setting[sekolah] - $setting[web]"; ?>
 					</small>
 			</div>
 

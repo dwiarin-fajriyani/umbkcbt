@@ -25,7 +25,7 @@ $tglsekarang = time();
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
     <title><?= $setting['aplikasi'] ?></title>
     <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />
-    <link rel='shortcut icon' href='<?= $homeurl ?>/favicon.ico' />
+    <link rel='shortcut icon' href='<?= $homeurl ?>/fav.ico' />
     <link rel='stylesheet' href='<?= $homeurl ?>/dist/bootstrap/css/bootstrap.min.css' />
     <link rel='stylesheet' href='<?= $homeurl ?>/plugins/fontawesome/css/all.css' />
     <link rel='stylesheet' href='<?= $homeurl ?>/dist/css/AdminLTE.min.css' />
@@ -109,7 +109,7 @@ $tglsekarang = time();
                     <img src="<?= $homeurl ?>/dist/img/umbk.png" height="35px">
                 </span>
                 <span class='animated flipInX logo-lg' style="margin:-3px;color:#000">
-                    <img src="<?= $homeurl ?>/dist/img/umbk.png" height="35px">
+                    <img src="<?= $homeurl ?>/dist/img/umbk-smk2.png" height="35px">
                 </span>
             </a>
             <nav class='navbar navbar-static-top' style='background:linear-gradient(to right, #283c86, #45a247);box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1)' role='navigation'>
