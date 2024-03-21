@@ -1,0 +1,22 @@
+UMBK 22 r2 (16 April 2022)
+- Gradient Color
+- Panel Admin Stylish
+- siswa Langung Tampil Jadwal Ujian
+- Fix Hapus Foto All
+- Fik Cetak Kartu
+- Fik Cetak Berita
+- Fik Dashboard Admin
+- Rename admin suka-suka
+- Pengurangan Menu Sidebar
+- dll
+
+
+UMBK 22 r1 (28 Maret 2022)
+- Gradient Color
+- Panel Admin Stylish
+- siswa Langung Tampil Jadwal Ujian
+- Fix Hapus Foto
+- Fik Cetak Kartu
+- Fik Cetak Berita
+- Pengurangan Menu Sidebar
+- dll
