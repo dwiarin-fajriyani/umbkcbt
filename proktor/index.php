@@ -40,7 +40,7 @@ $ujian = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM ujian where statu
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 	<title>Administrator | <?= $setting['aplikasi'] ?></title>
 	<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-	<link rel='shortcut icon' href='<?= $homeurl ?>/favicon.ico' />
+	<link rel='shortcut icon' href='<?= $homeurl ?>/fav.ico' />
 	<link rel='stylesheet' href='<?= $homeurl ?>/dist/bootstrap/css/bootstrap.min.css' />
 
 	<link rel='stylesheet' href='<?= $homeurl ?>/plugins/fontawesome/css/all.css' />
@@ -104,7 +104,7 @@ $ujian = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM ujian where statu
 					<img src="<?= $homeurl ?>/dist/img/mr" height="30px">
 				</span>
 				<span class='animated bounce logo-lg'>
-					<img src="<?= $homeurl ?>/dist/img/umbk-smk2.png" height="30px">
+					<img src="<?= $homeurl ?>/dist/img/umbk-smk2wh.png" height="30px">
 				</span>
 			</a>
 			<nav class='navbar navbar-static-top' style='background:linear-gradient(to right, #283c86, #45a247);box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1)' role='navigation'>
@@ -149,19 +149,19 @@ $ujian = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM ujian where statu
 						
 						<li class='dropdown user user-menu'>
 							<a href='#' class='dropdown-toggle' data-toggle='dropdown'>
-								<img src='<?= $homeurl ?>/dist/img/logokemenag.png' class='user-image' alt='+'>
+								<img src='<?= $homeurl ?>/dist/img/logo31.png' class='user-image' alt='+'>
 								<span style="color:#fff" class='hidden-xs'><?= $pengawas['nama'] ?> &nbsp; <i class='fa fa-caret-down'></i></span>
 							</a>
 							<ul class='dropdown-menu'>
 								<li class='user-header'>
 									<?php
 									if ($pengawas['level'] == 'admin') :
-										echo "<img src='$homeurl/dist/img/logokemenag.png' class='img-circle' alt='User Image'>";
+										echo "<img src='$homeurl/dist/img/logo31.png' class='img-circle' alt='User Image'>";
 									elseif ($pengawas['level'] == 'guru') :
 										if ($pengawas['foto'] <> '') {
 											echo "<img src='$homeurl/foto/fotoguru/$pengawas[foto]' class='img-circle' alt='User Image'>";
 										} else {
-											echo "<img src='$homeurl/dist/img/logokemenag.png' class='img-circle' alt='User Image'>";
+											echo "<img src='$homeurl/dist/img/logo31.png' class='img-circle' alt='User Image'>";
 										}
 									endif
 									?>

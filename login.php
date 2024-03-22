@@ -34,7 +34,7 @@ require("config/config.umbk.php");
 				<form id="formlogin" action="ceklogin.php" class="login100-form validate-form">
 					<span class="animated infinite pulse delay-5s login100-form-title p-b-26 ">
 						<a href="https://aplikasipendidikan.net">
-						<img src="<?= $homeurl ?>/dist/img/umbk-smk2.png" style="max-height:50px" class="img-responsive" alt="Responsive image">
+						<img src="<?= $homeurl ?>/dist/img/umbk-smk2blue.png" style="max-height:50px" class="img-responsive" alt="Responsive image">
 						</a>
 					</span>
 					<div class="animated flipInX delay-10s p-b-20">

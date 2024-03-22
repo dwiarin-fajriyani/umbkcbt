@@ -56,7 +56,7 @@ $kelas = mysqli_fetch_array(mysqli_query($koneksi, "SELECT * FROM kelas WHERE id
 					<table style="text-align:center; width:100%">
 						<tr>
 							<td style="text-align:left; vertical-align:top">
-								<img src='../foto/kemenag.png' height='60px'>
+								<img src='../foto/logoprovinsi.png' height='60px'>
 							</td>
 							<td style="text-align:center">
 								<!-- <b>
@@ -127,7 +127,7 @@ $kelas = mysqli_fetch_array(mysqli_query($koneksi, "SELECT * FROM kelas WHERE id
 						<tr>
 							<td valign='top'></td>
 							<td class="ukuran2" valign='top' align='center'>
-								Kepala Madrasah<br><br>
+								Kepala Sekolah<br><br>
 								<br>
 								<b><?= $setting['kepsek'] ?></b><br>
 								<b>NIP. <?= $setting['nip'] ?></b>
